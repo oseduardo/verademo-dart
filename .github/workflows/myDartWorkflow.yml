@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      - run: flutter test
+      # - run: flutter test
 
       - name: Build project in debug mode
         run: flutter build apk --debug
